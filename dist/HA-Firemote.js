@@ -4198,8 +4198,9 @@ const fastappchoices = {
           "adbLaunchCommand": "adb shell am start -n tv.startupshow.android/io.nitrix.tvstartupshow.ui.activity.TvSplashActivity",
       },
       "xiaomi": {
-          "androidName": "tv.startupshow.android",
-          "adbLaunchCommand": "adb shell am start -n tv.startupshow.android/io.nitrix.tvstartupshow.ui.activity.TvSplashActivity",
+          "appName": "StartupShow",
+          "androidName": "io.nitrix.tvstartupshow.StartupShowApp",
+          "adbLaunchCommand": "adb shell am start -n tv.startupshow.androidtv/io.nitrix.tvstartupshow.ui.activity.SplashActivity",
       },
    },
 
